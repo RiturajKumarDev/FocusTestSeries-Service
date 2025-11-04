@@ -1,0 +1,26 @@
+# Account & Data Deletion Request - Future Focus Test App
+
+To request deletion of your account and associated data from the Future Focus Test app, please follow the steps below.
+
+## How to request account deletion
+Email us at: **futurefocustest@gmail.com**
+
+Subject: `Account Deletion Request`
+
+Include your registered email address in the message.
+
+## Data that will be deleted
+- Email
+- Name
+- Test results
+- Firebase authentication records
+
+All related personal data is deleted from our Firebase database.
+
+## Processing time
+Deletion requests are processed within **7 days**.  
+Backup logs may remain for **30 days** for security reasons.
+
+## Contact
+If you have questions, contact us at:  
+📧 futurefocustest@gmail.com
