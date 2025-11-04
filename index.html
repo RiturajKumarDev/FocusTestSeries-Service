@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Account & Data Deletion — Future Focus Test</title>
+  <meta name="description" content="How to request account and data deletion for the Future Focus Test app." />
+  <style>
+    :root{
+      --bg:#f6f8fb;
+      --card:#ffffff;
+      --accent:#0b63d6;
+      --muted:#6b7280;
+      --danger:#d32f2f;
+      --radius:12px;
+      --maxw:900px;
+      --pad:22px;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      color-scheme: light;
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background: linear-gradient(180deg, #f6f8fb 0%, #eef2f8 100%);
+      font-size:16px;
+      line-height:1.55;
+      color:#0f172a;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      padding:40px 18px;
+      display:flex;
+      justify-content:center;
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--maxw);
+      background:var(--card);
+      border-radius:var(--radius);
+      box-shadow:0 8px 30px rgba(15,23,42,0.08);
+      padding:var(--pad);
+      border:1px solid rgba(15,23,42,0.04);
+    }
+
+    header{
+      display:flex;
+      gap:16px;
+      align-items:center;
+      margin-bottom:8px;
+    }
+
+    .logo{
+      width:56px;
+      height:56px;
+      border-radius:10px;
+      background:linear-gradient(135deg,var(--accent),#0753b8);
+      display:grid;
+      place-items:center;
+      color:white;
+      font-weight:700;
+      font-size:18px;
+      box-shadow:0 6px 18px rgba(11,99,214,0.18);
+    }
+    h1{
+      margin:0;
+      font-size:20px;
+      letter-spacing: -0.2px;
+    }
+    p.lead{
+      margin:8px 0 18px 0;
+      color:var(--muted);
+      font-size:14px;
+    }
+
+    .grid{
+      display:grid;
+      gap:18px;
+      grid-template-columns: 1fr;
+    }
+
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,0.9), var(--card));
+      border-radius:10px;
+      padding:16px;
+      border:1px solid rgba(15,23,42,0.03);
+    }
+
+    .section-title{
+      margin:0 0 8px 0;
+      font-weight:600;
+      color:#0b1220;
+      font-size:15px;
+    }
+
+    ul.clean{
+      margin:10px 0 0 0;
+      padding:0 0 0 18px;
+      color:var(--muted);
+    }
+    ul.clean li{margin:7px 0}
+
+    .notice{
+      margin-top:12px;
+      padding:12px;
+      border-radius:8px;
+      background:#fff9f9;
+      border:1px solid rgba(211,47,47,0.08);
+      color:var(--danger);
+      font-size:14px;
+    }
+
+    .contact{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      align-items:center;
+      margin-top:10px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      gap:10px;
+      background:var(--accent);
+      color:white;
+      padding:10px 14px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:600;
+      box-shadow:0 6px 20px rgba(11,99,214,0.12);
+    }
+
+    .muted-block{
+      color:var(--muted);
+      font-size:14px;
+      background: #fbfdff;
+      padding:12px;
+      border-radius:8px;
+      border:1px solid rgba(11,99,214,0.05);
+    }
+
+    .small{
+      font-size:13px;
+      color:var(--muted);
+    }
+
+    footer{
+      margin-top:18px;
+      display:flex;
+      justify-content:space-between;
+      gap:12px;
+      align-items:center;
+      color:var(--muted);
+      font-size:13px;
+      flex-wrap:wrap;
+    }
+
+    @media(min-width:800px){
+      .grid{grid-template-columns: 1fr 360px}
+    }
+
+    code{
+      background:#f3f6fb;
+      padding:4px 8px;
+      border-radius:6px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
+      font-size:13px;
+    }
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <header>
+      <div class="logo" aria-hidden="true">FF</div>
+      <div>
+        <h1>Account & Data Deletion — Future Focus Test</h1>
+        <p class="lead">Use this page to request permanent deletion of your account and associated personal data stored by the Future Focus Test app.</p>
+      </div>
+    </header>
+
+    <div class="grid" role="region" aria-label="Account deletion information">
+      <section class="card" aria-labelledby="how-title">
+        <h2 id="how-title" class="section-title">How to request deletion</h2>
+
+        <p class="small">To request deletion of your account and associated data, please follow one of the methods below. We require the registered email address (or account ID) to locate and remove your records.</p>
+
+        <ol style="margin-top:12px; padding-left:18px; color:var(--muted)">
+          <li><strong>Email</strong> — Send an email to <a href="mailto:futurefocustest@gmail.com">futurefocustest@gmail.com</a> with subject line <code>Account Deletion Request</code>. Include your registered email address and (optional) full name.</li>
+          <li><strong>Postal/Phone</strong> — You may also call or visit our support numbers for verification if required: <span class="muted-block">9507091174 • 8603497015 • 7258859064</span></li>
+        </ol>
+
+        <div style="margin-top:12px" class="muted-block">
+          Example email body:<br>
+          <code>
+            Subject: Account Deletion Request<br>
+            Registered email: youremail@example.com<br>
+            Name (optional): Your Name
+          </code>
+        </div>
+
+        <div class="notice" role="note" aria-live="polite">
+          We will confirm receipt of your request by email. For security, we may ask a short verification question before deleting account data.
+        </div>
+
+        <h3 class="section-title" style="margin-top:16px">Data that will be deleted</h3>
+        <ul class="clean">
+          <li>Email address and user profile (name)</li>
+          <li>Test results, scores and learning progress</li>
+          <li>Authentication records stored in Firebase (user UID)</li>
+          <li>Associated user documents in Firestore</li>
+        </ul>
+
+        <h3 class="section-title" style="margin-top:12px">Data we may retain temporarily</h3>
+        <p class="small">For security, fraud prevention and backup purposes, certain logs or backups may be retained for a short period before permanent deletion (up to 30 days).</p>
+
+        <h3 class="section-title" style="margin-top:12px">Processing time</h3>
+        <p class="small">We will process deletion requests within <strong>7 business days</strong>. You will receive an email confirmation once deletion is complete.</p>
+      </section>
+
+      <aside class="card" role="complementary" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="section-title">Contact & Verification</h2>
+
+        <p class="small">Publisher: <strong>Future Focus Test</strong></p>
+        <p class="small">Address: Rampur Road, Bazar Samiti, Patna - 06</p>
+
+        <div style="margin-top:10px" class="contact" aria-hidden="false">
+          <a class="btn" href="mailto:futurefocustest@gmail.com">Email Support</a>
+          <a class="btn" href="tel:+919507091174" style="background:#0f9d58">Call Support</a>
+        </div>
+
+        <hr style="margin:14px 0; border:none; height:1px; background:linear-gradient(90deg, transparent, rgba(15,23,42,0.04), transparent);" />
+
+        <h3 class="section-title">Important notes</h3>
+        <ul class="clean">
+          <li>Account deletion is permanent and cannot be undone.</li>
+          <li>We will remove personal data from production databases; anonymized aggregate data for analytics may be retained.</li>
+          <li>If you registered via a third-party provider (Google Sign-In), deleting account here will remove your records from our system; it will not delete your Google account.</li>
+        </ul>
+
+        <div style="margin-top:12px">
+          <p class="small"><strong>Privacy officer:</strong> Future Focus Test Support</p>
+          <p class="small">Email: <a href="mailto:futurefocustest@gmail.com">futurefocustest@gmail.com</a></p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="small">Last updated: <strong><!-- Insert date here -->November 4, 2025</strong></div>
+      <div class="small">This page was generated for the Play Store Account Deletion URL requirement.</div>
+    </footer>
+  </main>
+</body>
+</html>
