@@ -93,6 +93,13 @@ header {
 
 .te-img-section {
   display: none;
+  padding: 10px;
+  text-align: center;
+
+  img {
+    width: 280px;
+    margin: 5px;
+  }
 }
 
 @media screen and (max-width: 1000px) {
